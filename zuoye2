@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int i;
+    int n;
+    int p;
+	scanf("%d",&n);
+    while(i<=n)
+  { 
+	 p=p+i;
+	 i++;
+	  }    
+    
+	printf("%d",p-1);
+    return 0;
+} 
